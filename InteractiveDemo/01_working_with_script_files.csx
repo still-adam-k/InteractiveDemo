@@ -9,10 +9,12 @@ Console.WriteLine(Directory.GetCurrentDirectory());
 Directory.SetCurrentDirectory(@"c:/projects/InteractiveDemo");
 Console.WriteLine(Directory.GetCurrentDirectory());
 
+// or right click on project and Initialize Interactive with project
+// this does change directory to your project, and loads all the code from library and nuget packages
 
 // loading (and executing) other script files:
 #load "00_introduction.csx"
 
-// or right click on project and Initialize Interactive with project
-// this does change directory to your project, and loads all the code from library and nuget packages
+
+// Debugging: attach debugger to interactive process. You can stop on breakpoints in the actual compiled and loaded code (but not in scripts, sadly)
 

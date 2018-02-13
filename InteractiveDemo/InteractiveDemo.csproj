@@ -40,9 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassTest.cs" />
+    <Compile Include="example_task_1_wordsearch.cs" />
+    <Compile Include="example_task_2_reverser.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="real_life_example_3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="01_working_with_script_files.csx" />

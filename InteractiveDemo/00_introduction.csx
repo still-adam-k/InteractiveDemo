@@ -1,5 +1,5 @@
 ﻿// Notice this is csx (c# script) file. It does not need namespaces, and we generally do not care if it fails compilation
-using System.
+using System;
 
 // Press Ctrl+E, Ctrl+E to evaluate the line in interactive
 Console.WriteLine("Hello World");

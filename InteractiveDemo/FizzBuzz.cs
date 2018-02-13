@@ -8,7 +8,6 @@ namespace InteractiveDemo {
     public class Test {
         public static List<string> FizzBuzz(int length) {
             
-
             return Enumerable
                 .Range(1, length)
                 .Select(x => {
